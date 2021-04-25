@@ -8,7 +8,7 @@ body {
   background-color: #f6b319;
 }
 .logo {
-  background-image: url(../../REstaurant_Menu/images/restaurant-logo.png);
+  background-image: url(../images/restaurant-logo.png);
   width: 150px;
   height: 150px;
   background-repeat: no-repeat;
