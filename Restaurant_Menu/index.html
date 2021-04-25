@@ -1,0 +1,180 @@
+<html lang="en">
+  <head>
+    <script src="https://use.fontawesome.com/91e0261069.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css" />
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="js\jquery-3.6.0.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\js.js"></script>
+    <nav class="navbar navbar-expand-md navbar-light navbar-inverse">
+      <div class="container">
+        <a href="#"><div class="logo"></div></a>
+
+        <a class="navbar-brand" href="#">
+          DAVID CHU'S CHINA BISTRO
+          <div class="pt-2 d-none d-md-block">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <small>Kosher Certified</small>
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="menu-categories-page.html"
+                ><i class="fa fa-cutlery" aria-hidden="true"></i> <br />
+                Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-info-circle" aria-hidden="true"></i> <br />
+                About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-certificate" aria-hidden="true"></i> <br />
+                Awards</a
+              >
+            </li>
+            <li class="nav-item d-none d-md-inline">
+              <a href="tel:9718253271" class="nav-link ms-4"
+                >9718253271 <span class="deliver d-block">We deliver</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="call-btn telephone d-md-none">
+      <a href="tel:9718253271" class="btn">
+        <i
+          class="fa fa-phone"
+          aria-hidden="true"
+          style="margin-right: 15px"
+        ></i>
+        9718253271
+      </a>
+    </div>
+
+    <div class="jumbotron"></div>
+
+    <div class="container" id="main-content">
+      <div class="row">
+        <div class="col col-lg-4 col-md-6 col-12">
+          <a href="menu-categories-page.html"
+            ><div id="menu"><span>Menu</span></div></a
+          >
+        </div>
+        <div class="col col-lg-4 col-md-6 col-12">
+          <a href="#"
+            ><div id="specials"><span>Specials</span></div></a
+          >
+        </div>
+        <div class="col col-lg-4 col-md-12 col-12">
+          <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m12!1m6!3m5!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!8m2!3d39.3635536!4d-76.7117301!3m4!1s0x89c81a14e7817803:0xab20a0e99daa17ea!8m2!3d39.3635536!4d-76.7117301" target="_blank"
+            ><div id="map">
+              <iframe
+                width="100%"
+                height="500"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe
+              ><a href="https://soap2day-to.com"></a><br /><style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 500px;
+                  width: 600px;
+                }</style
+              ><a href="https://www.embedgooglemap.net"
+                >custom google map embed</a
+              ><style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 500px;
+                  width: 600px;
+                }
+              </style>
+              <span>Map</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br />
+            Sun-Thurs: 11:15am - 10:00pm<br />
+            Fri: 11:15am - 2:30pm<br />
+            Saturday Closed
+            <hr class="d-sm-none" />
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br />
+            7105 Reisterstown Road<br />
+            Baltimore, MD 21215
+            <p>
+              * Delivery area within 3-4 miles, with minimum order of $20 plus
+              $3 charge for all deliveries.
+            </p>
+            <hr class="d-sm-none" />
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>
+              "The best Chinese restaurant I've been to! And that's saying a
+              lot, since I've been to many!"
+            </p>
+            <p>
+              "Amazing food! Great service! Couldn't ask for more! I'll be back
+              again and again!"
+            </p>
+          </section>
+        </div>
+        <div class="text-center">
+          &copy; Copyright David Chu's China Bistro 2016
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
