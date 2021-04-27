@@ -1,0 +1,77 @@
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+}
+/* navbar */
+.navbar {
+  background-color: salmon;
+}
+.navbar .navbar-brand {
+  font-weight: bolder;
+  color: bisque;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.8em;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.747);
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.2em;
+  padding: 12px;
+}
+.navbar-light .navbar-toggler {
+  border-color: bisque;
+}
+.navbar .container-fluid {
+  padding: 0;
+}
+.navbar-collapse {
+  background-color: bisque;
+}
+
+/* heading */
+
+.h2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 2.9em;
+  font-weight: bold;
+}
+
+/* content */
+
+.coloured-container {
+  background-color: salmon;
+  color: bisque;
+  padding: 20px;
+  box-shadow: 0px 0px 20px black;
+}
+.col-12{
+    margin-bottom: 40px;
+}
+
+h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.coloured-container span a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+span{
+    width: 150px;
+    margin-left: auto;
+    text-align: right;
+}
+
+@media screen and (min-width: 135px) {
+  .navbar-brand br {
+    display: none;
+  }
+}
